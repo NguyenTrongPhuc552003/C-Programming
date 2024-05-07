@@ -1,4 +1,3 @@
-const README_C_PROGRAMMING = `
 # C Programming
 
 Welcome to the "C Programming" repository! This repository contains a collection of C programming projects, exercises, and resources to help you learn and practice the C programming language.
