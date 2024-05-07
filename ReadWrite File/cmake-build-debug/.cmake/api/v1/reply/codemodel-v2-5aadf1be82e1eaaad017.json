@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ReadWrite_File",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ReadWrite_File::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReadWrite_File-Debug-8ba21ac35d049bc9d6c3.json",
+					"name" : "ReadWrite_File",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Trong_Phuc/OneDrive_VNU-HCMUS/Documents/JetBrains_Tools/Clion/C projects/ReadWrite File/cmake-build-debug",
+		"source" : "C:/Users/Trong_Phuc/OneDrive_VNU-HCMUS/Documents/JetBrains_Tools/Clion/C projects/ReadWrite File"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

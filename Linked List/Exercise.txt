@@ -1,0 +1,9 @@
+CNTT-CSN-B92_93-01: Viết một chương trình với ngôn ngữ C sử dụng danh sách liên kết để lưu trữ và
+quản lý một danh sách điểm của sinh viên gồm tên và điểm số. Chương trình cần có các chức năng sau:
+- Thêm một sinh viên vào danh sách.
+- Xóa một sinh viên khỏi danh sách dựa trên tên.
+- In ra danh sách điểm của tất cả sinh viên.
+- Tìm điểm số cao nhất và thấp nhất trong danh sách.
+- Tính điểm trung bình của tất cả sinh viên.
+
+CNTT-CSN-B92_94-01: Viết một chương trình C duyệt dữ liệu trên danh sách liên kết đơn, trả về vị trí đầu tiên tìm thấy dữ liệu.

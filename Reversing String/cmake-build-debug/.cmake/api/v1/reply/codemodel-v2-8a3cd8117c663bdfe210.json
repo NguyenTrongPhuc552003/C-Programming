@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Reversing_String",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Reversing_String::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Reversing_String-Debug-b63e6ae3568a95a8aa92.json",
+					"name" : "Reversing_String",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Trong_Phuc/OneDrive_VNU-HCMUS/Documents/JetBrains_Tools/Clion/C projects/Reversing String/cmake-build-debug",
+		"source" : "C:/Users/Trong_Phuc/OneDrive_VNU-HCMUS/Documents/JetBrains_Tools/Clion/C projects/Reversing String"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

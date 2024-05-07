@@ -1,0 +1,7 @@
+digraph BST {
+node [fontname="Arial"];
+7 [label="7"];
+7 -> 3;
+7 -> 9;
+}
+
