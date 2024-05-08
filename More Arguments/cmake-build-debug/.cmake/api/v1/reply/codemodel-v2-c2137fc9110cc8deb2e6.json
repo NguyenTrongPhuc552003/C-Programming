@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "More_Arguments",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "More_Arguments::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-More_Arguments-Debug-fe9bb52e2ed75007e704.json",
+					"name" : "More_Arguments",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Trong_Phuc/OneDrive_VNU-HCMUS/Documents/JetBrains_Tools/Clion/C projects/More Arguments/cmake-build-debug",
+		"source" : "C:/Users/Trong_Phuc/OneDrive_VNU-HCMUS/Documents/JetBrains_Tools/Clion/C projects/More Arguments"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
