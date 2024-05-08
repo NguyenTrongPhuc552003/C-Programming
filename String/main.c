@@ -30,8 +30,10 @@ int main(void) {
 
     /*strcspn(str, control):
      * number of characters in str that are not in control*/
-    n = strcspn(s5, s6);
-    printf("Number of characters in s5 that are not in s6: %llu\n", n);
+    char s7[] = "Hello world";
+    char s8[] = "Helo";
+    unsigned long long m = strcspn(s7, s8);
+    printf("Number of characters in s7 that are not in s8: %llu\n", m);
 
     /*strcat_s(str, size, control):
      * concatenate control to str*/
@@ -43,16 +45,16 @@ int main(void) {
     /*strchr(str, control):
      * != NULL: first matching character
      * else: no matching character*/
-    char s7[] = "Hello world";
-    char *p2 = strchr(s7, 'o');
+    char s14[] = "Hello world";
+    char *p2 = strchr(s14, 'o');
     if (p2 != NULL) printf("First 'o' character: %c\n", *p2);
     else printf("No 'o' character\n");
 
     /*strrchr(str, control):
      * != NULL: last matching character
      * else: no matching character*/
-    char s8[] = "Hello world";
-    char *p3 = strrchr(s8, 'o');
+    char s15[] = "Hello world";
+    char *p3 = strrchr(s15, 'o');
     if (p3 != NULL) printf("Last 'o' character: %c\n", *p3);
     else printf("No 'o' character\n");
 
