@@ -1,0 +1,11 @@
+# ninja log v5
+4	76	7368871398391302	CMakeFiles/Error_Handling.dir/main.c.obj	71af0cf6ae23ca4f
+77	336	7368871400849328	Error_Handling.exe	1a8add23701d770b
+4	82	7368872342304668	CMakeFiles/Error_Handling.dir/main.c.obj	71af0cf6ae23ca4f
+83	272	7368872343786541	Error_Handling.exe	1a8add23701d770b
+6	93	7368872434556831	CMakeFiles/Error_Handling.dir/main.c.obj	71af0cf6ae23ca4f
+94	235	7368872435706548	Error_Handling.exe	1a8add23701d770b
+7	93	7368874087268216	CMakeFiles/Error_Handling.dir/main.c.obj	71af0cf6ae23ca4f
+93	253	7368874088525351	Error_Handling.exe	1a8add23701d770b
+5	107	7368874508129194	CMakeFiles/Error_Handling.dir/main.c.obj	71af0cf6ae23ca4f
+107	310	7368874509580478	Error_Handling.exe	1a8add23701d770b
