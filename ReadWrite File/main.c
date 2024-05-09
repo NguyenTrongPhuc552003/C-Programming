@@ -40,7 +40,7 @@ int main() {
     for (int i = 0; i < ftell(fp) / sizeof(readData[0]); i++) printf("%d ", readData[i]);
     fclose(fp);
 
-    /*DOC TU FILE*//*
+    /*DOC TU FILE*/
     fopen_s(&fp, "Test.bin", "rb"); // read mode
     if (fp == NULL) {
         printf("File error !\n");
@@ -48,6 +48,19 @@ int main() {
     }
     fread(readData, sizeof(int), 2, fp);
     for (int i = 0; i < sizeof(readData) / sizeof(readData[0]); i++) printf("\n%d", readData[i]);
-    fclose(fp);*/
+
+    /*RESET POINTER TO BEGIN*/
+    rewind(fp); // dua con tro ve dau file
+    fread(readData, sizeof(int), 2, fp);
+    for (int i = 0; i < sizeof(readData) / sizeof(readData[0]); i++) printf("\n%d", readData[i]);
+    fclose(fp);
+
+    /*RENAME FILE*/
+    if (rename("Test.bin", "Test2.bin") == 0) printf("\nFile renamed successfully !");
+    else printf("\nError: unable to rename the file !");
+
+    /*REMOVE FILE*/
+    if (remove("Test2.bin") == 0) printf("\nFile removed successfully !");
+    else printf("\nError: unable to remove the file !");
     return 0;
 }
