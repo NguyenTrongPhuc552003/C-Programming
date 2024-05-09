@@ -34,7 +34,6 @@ int main() {
     fseek(fp, 2, SEEK_SET); // ghi 2 so 8, 9 vao vi tri moi
     fwrite(appData, sizeof(appData[0]), sizeof(appData) / sizeof(appData[0]), fp);
 
-
     //  fopen_s(&fp, "Test.bin", "rb");
     fread(readData, sizeof(readData[0]), sizeof(readData) / sizeof(readData[0]), fp);
     for (int i = 0; i < ftell(fp) / sizeof(readData[0]); i++) printf("%d ", readData[i]);
