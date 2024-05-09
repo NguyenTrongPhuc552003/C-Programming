@@ -3,6 +3,4 @@ project(Hello_World C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Hello_World main.c
-        Customer.cpp
-        Customer.h)
+add_executable(Hello_World main.c)
