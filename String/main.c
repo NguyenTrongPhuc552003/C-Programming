@@ -76,5 +76,12 @@ int main(void) {
         printf("%s\n", p5);
         p5 = strtok_s(NULL, " ", (char **) &s11);
     }
+
+    /*sprintf(str, control, ...):
+     * write formatted data to string*/
+    char s16[100];
+    int n2 = 123;
+    sprintf(s16, "n2: %d", n2); // it's like converting n2 to string
+    printf("%s\n", s16);
     return 0;
 }
