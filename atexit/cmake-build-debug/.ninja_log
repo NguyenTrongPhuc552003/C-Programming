@@ -1,0 +1,5 @@
+# ninja log v5
+4	73	7369244968181128	CMakeFiles/atexit.dir/main.c.obj	5b8b85db1e50c188
+86	349	7369244970776255	atexit.exe	17058a97ccfb1472
+5	95	7369247370230910	CMakeFiles/atexit.dir/main.c.obj	5b8b85db1e50c188
+96	214	7369247371126065	atexit.exe	17058a97ccfb1472
